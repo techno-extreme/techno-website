@@ -1,0 +1,6 @@
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.dll.config
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.dll
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.pdb
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csprojResolveAssemblyReference.cache
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.dll
+c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.pdb
