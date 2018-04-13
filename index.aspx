@@ -512,9 +512,9 @@
                                 <input type="submit" class="shortcode_button" value="Sign Up">
                             </div>
                             <div class="social">
-                                <a href="#" class="soc-f">The</a> <a href="#" class="soc-t"></a> <a href="#" class="soc-g">
-                                    S</a> <a href="#" class="soc-n">e</a> <a href="#" class="soc-v">v</a> <a href="#"
-                                        class="soc-r">e</a> <a href="#" class="soc-i">n</a>
+                                <a href="#" class="soc-f">Techno</a> <a href="#" class="soc-t"></a> <a href="#" class="soc-g">
+                                    Ex</a> <a href="#" class="soc-n">tr</a> <a href="#" class="soc-v">e</a> <a href="#"
+                                        class="soc-r">m</a> <a href="#" class="soc-i">e</a>
                             </div>
                         </div>
                     </div>
