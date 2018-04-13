@@ -4,7 +4,7 @@
 <html>
 <head runat="server">
     <meta charset="utf-8">
-    <title>The Seven | The future is now</title>
+    <title>Texhno Extreme | The future is now</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -39,7 +39,7 @@
             	<div class="container">                                   
                     <!-- logo -->
                     <div id="logo">
-                        <a href="#topping">The<strong>Seven</strong></a>
+                        <a href="#topping">Techno<strong>Extreme</strong></a>
          			</div>
                     <!-- menu -->
                     <nav class="navmenu">
@@ -70,7 +70,7 @@
                                 <div class="container">
                                 	<div class="cont">
                                     	Enjoy our Services
-                                        <div class="title">TheSeven</div>
+                                        <div class="title">Techno Extreme</div>
                                         <br>All your technology solutions
                                     </div>
                                 </div>                              
@@ -83,7 +83,7 @@
                                 <div class="container">
                                 	<div class="cont">
 	                                    Enjoy our Services
-                                        <div class="title">TheSeven</div>
+                                        <div class="title">Techno Extreme</div>
                                         <br>All your technology solutions
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@
                                 <div class="container">
                                 	<div class="cont">
                                     	Enjoy our Services
-                                        <div class="title">TheSeven</div>
+                                        <div class="title">Techno Extreme</div>
                                         <br>All your technology solutions
                                     </div>
                                 </div>
@@ -204,7 +204,7 @@
             <!-- section header -->
             <header class="head_section center_section">
                 <div class="container">
-                    <h1>Welcome to TheSeven</h1>
+                    <h1>Welcome to Techno Extreme</h1>
                     <div class="separator"></div>
                     <p>We bring you the best of all your software solutions, in time and as per requirement. Not sure of what you would like? We also provide customized solutions and guidance to a proposals.</p>
                 </div><!-- end .container -->
@@ -348,7 +348,7 @@
                                 <Tour Traveln>News</Tour Traveln>
                               <div class="separator left"></div>
                             </header>
-                            <p>Get the latest updates of TheSeven's progress and events from here.</p>
+                            <p>Get the latest updates of Techno Extreme's progress and events from here.</p>
                         	<div class="customNavigation">
                             	<a class="btn-prev"><i class="fa fa-angle-left"></i></a>
                             	<a class="btn-next"><i class="fa fa-angle-right"></i></a>
@@ -385,7 +385,7 @@
                                         <div class="cont block">
                                             <h4>New Service</h4>
                                             <div class="separator left"></div>
-                                            <p>You can now enjoy live streams of all our local content at your convinience, from all our site or our youtube channel 'TheSeven'.</p>
+                                            <p>You can now enjoy live streams of all our local content at your convinience, from all our site or our youtube channel 'Techno Extreme'.</p>
                                             <a href="#" class="shortcode_button">Read More</a>
                                         </div>
                                     </div>
@@ -458,7 +458,7 @@
                             <p>Harare </p>
                             <p>Zimbabwe</p>
                             <p>Phone: +263 772 721 627</p>
-                            <p>Email: info@theseven.com </p>
+                            <p>Email: info@Techno Extreme.com </p>
                         </div>
                     </div>
                 </div>
@@ -520,7 +520,7 @@
                     </div>
                 </div>
                 <div class="copyright">
-                    &copy; Copyright 2018. TheSeven All Rights Reserved.
+                    &copy; Copyright 2018. Techno Extreme All Rights Reserved.
                 </div>
             </div>
             <!-- //footer_bottom -->

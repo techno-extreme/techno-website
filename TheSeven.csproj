@@ -95,6 +95,7 @@
     <Content Include="images\still3.jpg" />
     <Content Include="images\ticket book.jpg" />
     <Content Include="index.aspx" />
+    <Content Include="index.html" />
     <Content Include="js\current.js" />
     <Content Include="js\homePopup.js" />
     <Content Include="js\homePopupLoad.js" />
@@ -109,6 +110,7 @@
   <ItemGroup>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
