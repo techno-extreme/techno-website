@@ -513,8 +513,7 @@
                             </div>
                             <div class="social">
                                 <a href="#" class="soc-i">Techno</a> <a href="#" class="soc-i"></a> <a href="#" class="soc-i">
-                                    Ex</a><a href="#" class="soc-i">tr</a><a href="#" class="soc-i">e</a><a href="#"
-                                        class="soc-i">m</a><a href="#" class="soc-i">e</a>
+                                    Extreme</a>
                             </div>
                         </div>
                     </div>
