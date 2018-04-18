@@ -4,11 +4,10 @@
 <html>
 <head runat="server">
     <meta charset="utf-8">
-    <title>Texhno Extreme | The future is now</title>
+    <title>Techno Extreme | The future is now</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Css Files -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/plugins.css" rel="stylesheet" type="text/css">
     <link href="css/homePopup.css" rel="stylesheet" type="text/css" />
@@ -16,9 +15,7 @@
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
-    <!-- Font Awesome -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet'
-        type='text/css'>
+    <link href="css/robotoFont.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -65,7 +62,7 @@
                     <ul class="slides">
                         <li> 
                         	<div class="slideshow-overlay"></div>                                    
-                            <img src="images/slider/1.jpg" alt="" class="slide_bg" />
+                            <img src="images/slider/cables.jpg" alt="" class="slide_bg" />
                             <div class="full_slider_caption">
                                 <div class="container">
                                 	<div class="cont">
@@ -78,27 +75,17 @@
                         </li>
                         <li>
                         	<div class="slideshow-overlay"></div>
-                            <img src="images/slider/2.jpg" alt="" class="slide_bg" />                            	
+                            <img src="images/slider/consultancy.jpg" alt="" class="slide_bg" />                            	
                             <div class="full_slider_caption">
                                 <div class="container">
-                                	<div class="cont">
-	                                    Enjoy our Services
-                                        <div class="title">Techno Extreme</div>
-                                        <br>All your technology solutions
-                                    </div>
                                 </div>
                             </div>
                         </li>
                         <li>
                         	<div class="slideshow-overlay"></div>
-                            <img src="images/slider/3.jpg" alt="" class="slide_bg" />                            	
+                            <img src="images/slider/dev.jpg" alt="" class="slide_bg" />                            	
                             <div class="full_slider_caption">
                                 <div class="container">
-                                	<div class="cont">
-                                    	Enjoy our Services
-                                        <div class="title">Techno Extreme</div>
-                                        <br>All your technology solutions
-                                    </div>
                                 </div>
                             </div>
                         </li>                                                       
@@ -122,7 +109,7 @@
                                 <div class="booking-item booking-item-small">
                                     <div class="row">
                                         <div class="col-xs-4">
-                                            <img src="images/hotel_porto_bay_rio_internacional_de_luxe_800x600.jpg" alt="Image Alternative text"
+                                            <img src="images/infra.jpg" alt="Image Alternative text"
                                                 title="hotel PORTO BAY RIO INTERNACIONAL de luxe" />
                                         </div>
                                         <div class="col-xs-5">
@@ -149,7 +136,7 @@
                                 <div class="booking-item booking-item-small">
                                     <div class="row">
                                         <div class="col-xs-4">
-                                            <img src="images/lhotel_porto_bay_sao_paulo_suite_lhotel_living_room_800x600.jpg"
+                                            <img src="images/sms.jpg"
                                                 alt="Image Alternative text" title="LHOTEL PORTO BAY SAO PAULO suite lhotel living room" />
                                         </div>
                                         <div class="col-xs-5">
@@ -176,17 +163,17 @@
                                 <div class="booking-item booking-item-small">
                                     <div class="row">
                                         <div class="col-xs-4">
-                                            <img src="images/hotel_porto_bay_rio_internacional_de_luxe_800x600.jpg" alt="Image Alternative text"
+                                            <img src="images/digi.png" alt="Image Alternative text"
                                                 title="hotel PORTO BAY RIO INTERNACIONAL de luxe" />
                                         </div>
                                         <div class="col-xs-5">
                                             <h5 class="booking-item-title">
-                                                Digital Marketing</h5>
+                                                Digital Marketing Services</h5>
                                             <ul class="icon-group booking-item-rating-stars">
                                                 <li><i class="fa fa-star"></i></li>
                                                 <li><i class="fa fa-star"></i></li>
                                                 <li><i class="fa fa-star"></i></li>
-                                                <li><i class="fa fa-star-half-empty"></i></li>
+                                                <li><i class="fa fa-star"></i></li>
                                                 <li><i class="fa fa-star-o"></i></li>
                                             </ul>
                                         </div>
@@ -217,11 +204,11 @@
                         <div class="icon-banner">
                         	<a href="javascript:void(0);">
                                 <div class="icon">
-                                	<img alt="" src="images/mal.jpg">
+                                	<img alt="" src="images/cycle.jpg">
                                 </div>
                                 <h3>Software Development!</h3>
                                 <div class="separator"></div>
-                            	<p>Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and error fixing involved in creating and maintaining software components.</p>
+                            	<p>Software development is the process of specifying, designing, programming, documenting, testing, error fixing and maintaining software as per user requirements.</p>
                             </a>
                         </div>
                     </div>
@@ -229,7 +216,7 @@
                         <div class="icon-banner">
                         	<a href="javascript:void(0);">
                                 <div class="icon">
-                                	<img alt="" src="images/goa.jpg">
+                                	<img alt="" src="images/integrations.png">
                                 </div>
                                 <h3>Hardware integrations.</h3>
                                 <div class="separator"></div>
@@ -241,7 +228,7 @@
                         <div class="icon-banner">
                         	<a href="javascript:void(0);">
                                 <div class="icon">
-                                	<img alt="" src="images/ticket book.jpg">
+                                	<img alt="" src="images/Networking.jpg">
                                 </div>
                                 <h3>Network Adminstration</h3>
                                 <div class="separator"></div>
@@ -263,14 +250,15 @@
                         <div class="wrap_cont">                        	
                             <header class="head_section">                            	                         	
                             	<h2>Our Development center</h2>
-                                <TourTraveln>History</TourTraveln>
+                                <div>History</div>
                               <div class="separator left"></div>                              	
                             </header>
                             <p>Success is only for the brave. Always remember that the distance between you and your dreams is action.</p> 
 							<asp:HyperLink ID="rd1" class="shortcode_button" runat="server" NavigateUrl="#">Read More</asp:HyperLink>                            
                         </div>
                     </div>                     
-                    <div class="col_img"></div>	
+                    <div class="col_img">
+                    </div>	
                     <div class="clear"></div>
                 </div>
             </div>                                	
@@ -288,7 +276,7 @@
                                   <i class="pe-5x pe-va pe-7s-diamond"></i> 
                                 </div> 
                            	  <h2>Our FEATURED</h2>
-                                <Tour Traveln>SERVICES</Tour Traveln>
+                                <div>SERVICES</div>
                               <div class="separator left"></div>
                             </header>
                             <p>Take a look at some of our favourite life changing services.</p>
@@ -301,17 +289,17 @@
                     </div>
                     <div class="col-md-9">
                     	<div class="owl-carousel">
-                        	<div class="item-service block">                            	                       	 
-								<img src="images/mal.jpg" alt="">
+                        	<div class="item-service">                            	                       	 
+								<img src="images/ticketmanagemant.jpg" alt="">
                             	<div class="cont">
                                     <h4>Ticketing Systems</h4>
                                     <div class="separator"></div>
-                                    <p>Have a good look and feel the experience of the traffic monitoring system in Zimbabwe. Life made easier for both the road users and also the law enforcers.</p>
+                                    <p>Have a good look and feel the experience of the traffic monitoring system in Zimbabwe. Life made easier for road users.</p>
                                     <asp:HyperLink ID="rd2" class="shortcode_button" runat="server" NavigateUrl="#">Read More</asp:HyperLink> 
                                 </div>
                             </div>
-                            <div class="item-service block">
-                            	<img src="images/goa.jpg" alt="">
+                            <div class="item-service">
+                            	<img src="images/payment-gateways.png" alt="">
                             	<div class="cont">
                                     <h4>Payment Gateways</h4>
                                     <div class="separator"></div>
@@ -319,8 +307,8 @@
                                     <asp:HyperLink ID="rd3" class="shortcode_button" runat="server" NavigateUrl="#">Read More</asp:HyperLink>
                                 </div>
                             </div>
-                            <div class="item-service block">                            
-                            	<img src="images/ticket book.jpg" alt="">
+                            <div class="item-service">                            
+                            	<img src="images/education.png" alt="">
                             	<div class="cont">
                                     <h4>Educational Platforms</h4>
                                     <div class="separator"></div>
@@ -339,13 +327,13 @@
             <div class="container block-wrap wow fadeInUp">
             	<div class="row carousel-box carousel-full">
                 	<div class="col-md-3">
-                    	<div class="control-block bg_black block">
+                    	<div class="control-block bg_black">
                         	<header class="head_section">
                             	<div class="icon-write">
                                   <i class="pe-5x pe-va pe-7s-diamond"></i> 
                                 </div> 
                            	  <h2>Recent</h2>
-                                <Tour Traveln>News</Tour Traveln>
+                                <div>News</div>
                               <div class="separator left"></div>
                             </header>
                             <p>Get the latest updates of Techno Extreme's progress and events from here.</p>
@@ -360,12 +348,12 @@
                             <div class="item-full">
                             	<div class="row">
                                     <div class="col-md-4 col-sm-4"> 
-                                        <div class="img block">
-                                        	<img src="images/still3.jpg" alt="">
+                                        <div class="img">
+                                        	<img src="images/award.jpg" alt="">
                                         </div>
                                     </div>
                                     <div class="col-md-8 col-sm-8">
-                                        <div class="cont block">
+                                        <div class="cont">
                                             <h4>Innovative Giants Award</h4>
                                             <div class="separator left"></div>
                                             <p>We are pleased to inform you that one of the top executives Dr Ashley Chihiya has just won an award as the leading ICT innovator in the country for the year 2018.</p>
@@ -377,12 +365,12 @@
                             <div class="item-full">
                             	<div class="row">
                                     <div class="col-md-4 col-sm-4">
-                                        <div class="img block">
-                                        	<img src="images/still2.jpg" alt="">
+                                        <div class="img">
+                                        	<img src="images/livestream.png" alt="">
                                         </div>
                                     </div>
                                     <div class="col-md-8 col-sm-8">
-                                        <div class="cont block">
+                                        <div class="cont">
                                             <h4>New Service</h4>
                                             <div class="separator left"></div>
                                             <p>You can now enjoy live streams of all our local content at your convinience, from all our site or our youtube channel 'Techno Extreme'.</p>
@@ -399,13 +387,13 @@
         <!-- //end news content-->
         <!-- contact content-->
         <section class="page_section" id="contact">
-            <div class="container block-wrap wow fadeInUp">
+            <div class="container fadeInUp">
             	<div class="row">
                 	<div class="col-md-3">
                     	<div class="info-block bg_colored block">
                         	<header class="head_section">
                             	<div class="icon-write">
-                                  <i class="pe-5x pe-va pe-7s-diamond"></i> 
+                                  <i class="pe-7s-diamond"></i> 
                                 </div> 
                               <h2>WRITE US</h2>
                                 <div class="separator left"></div>
@@ -414,44 +402,45 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                    	<div class="contact_form block">
+                    	<div class="contact_form">
                             <div class="row">
                                 <div class="col-md-12 col-sm-12">
                                     <div id="note"></div>
                                 </div>   
                             </div> 
                             <div id="fields"> 
-                                <form id="ajax-contact-form" class="row" action="#">                        
+                                <div id="ajax-contact-form" class="row">
                                     <div class="col-md-6 col-sm-6">
-                                        <input class="inp" type="text" name="name" placeholder="Name" title="Name">
+                                        <input class="inp" type="text" id="contactName" name="name" placeholder="Name" title="Name">
                                     </div>
                                     <div class="col-md-6 col-sm-6">
-                                        <input class="inp" type="text" name="email" placeholder="Email" title="Email">
+                                        <input class="inp" type="text" id="contactEmail" name="email" placeholder="Your Email" title="Email">
                                     </div>
                                     <div class="clear"></div>
                                     <div class="col-md-6 col-sm-6">
-                                        <input class="inp" type="text" name="phone" placeholder="Phone" title="Phone">
+                                        <input class="inp" type="text" id="contactPhone" name="phone" placeholder="Phone" title="Phone">
                                     </div>
                                     <div class="col-md-6 col-sm-6">
-                                        <input class="inp" type="text" name="subject" placeholder="Subject" title="Subject">
+                                        <input class="inp" type="text" id="contactSubject" name="subject" placeholder="Subject" title="Subject">
                                     </div>
                                     <div class="clear"></div>
                                     <div class="col-md-12">
-                                        <textarea class="inp" rows="4" name="message" placeholder="Message" title="Message"></textarea>
+                                        <textarea class="inp" rows="4" id="contactMessage" name="message" placeholder="Message" title="Message"></textarea>
                                     </div>
-                                    <div class="col-md-12"><input class="shortcode_button" type="submit" value="Send message"></div>
-                                </form> 
+                                    <div class="col-md-12">
+                                        <input class="shortcode_button" id="submitFeedback" type="submit" value="Send message"></div>
+                                </div> 
                             </div> 
                         </div>                
                     </div>
                     <div class="col-md-3">
-                    	<div class="info-block bg_black block">
+                    	<div class="info-block bg_black">
                         	<header class="head_section">
                             	<div class="icon-write">
-                                  <i class="pe-5x pe-va pe-7s-diamond"></i> 
+                                  <i class="pe-7s-diamond"></i> 
                                 </div> 
                               <h2>CONTACT</h2>
-                                <Tour Traveln>DETAILS</Tour Traveln>
+                                <div>DETAILS</div>
                               <div class="separator left"></div>
                             </header>
                             <p>Address: 86, Smith Drive, Avondale</p>
@@ -486,13 +475,13 @@
                             <div class="working_hours">
                                 <ul>
                                     <li>
-                                        <tourtraveln><i class="fa fa-clock-o"></i>Monday - Friday</tourtraveln>
-                                        <tourtraveln>
-                                        08.00 - 17.00</tourtraveln> 
+                                        <div><i class="fa fa-clock-o"></i>Monday - Friday</div>
+                                        <div>
+                                        08.00 - 17.00</div> 
                                     </li>
                                     <li>
-                                        <tourtraveln><i class="fa fa-clock-o"></i>Saturday & Sunday</tourtraveln>
-                                        <tourtraveln>Closed</tourtraveln>
+                                        <div><i class="fa fa-clock-o"></i>Saturday & Sunday</div>
+                                        <div>Closed</div>
                                     </li>
                                 </ul>
                             </div>
@@ -536,6 +525,7 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
     <!-- animation on scrolling-->
     <script>
         new WOW().init();

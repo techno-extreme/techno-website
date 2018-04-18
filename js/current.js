@@ -267,6 +267,5 @@ function scrolled_menu() {
 
 $(document).ready(function () {
 
-    $(".player").mb_YTPlayer();
 
 });
