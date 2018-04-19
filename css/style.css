@@ -1,3 +1,15 @@
+.footer ul li a.face4 {
+    background: url(../images/social.png) no-repeat 0px 0px;
+}
+.footer ul li a.face1 {
+    background: url(../images/social.png) no-repeat -39px 0px;
+}                            
+.footer ul li a.face2 {      
+    background: url(../images/social.png) no-repeat -79px 0px;
+}
+.footer ul li a.face3 {
+    background: url(../images/social.png) no-repeat -121px 0px;
+}
 img {
 	border:none 0;
 	outline:none;

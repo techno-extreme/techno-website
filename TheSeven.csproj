@@ -81,7 +81,22 @@
     <Content Include="css\robotoFont.css" />
     <Content Include="css\style.css" />
     <Content Include="EmailerService.svc" />
+    <Content Include="images\BulkSMSs\bulky.jpg" />
+    <Content Include="images\BulkSMSs\goldclass.png" />
+    <Content Include="images\BulkSMSs\platinum.jpg" />
+    <Content Include="images\BulkSMSs\standard.png" />
+    <Content Include="images\DigitalMarketing\businessfacebook.png" />
+    <Content Include="images\DigitalMarketing\digimarketing.jpg" />
+    <Content Include="images\DigitalMarketing\googladds.png" />
+    <Content Include="images\DigitalMarketing\instagram-business.jpg" />
+    <Content Include="images\DigitalMarketing\linkedinbusiness.png" />
+    <Content Include="images\DigitalMarketing\twitterbusiness.jpg" />
+    <Content Include="images\DigitalMarketing\youtubechannel.jpg" />
+    <Content Include="images\ICTConsultancy\advisory.jpg" />
     <Content Include="images\award.jpg" />
+    <Content Include="images\ICTConsultancy\communication.jpg" />
+    <Content Include="images\ICTConsultancy\technical.jpg" />
+    <Content Include="images\slider\ictConsultancy.jpg" />
     <Content Include="images\cycle.jpg" />
     <Content Include="images\digi.png" />
     <Content Include="images\education.png" />
@@ -94,6 +109,7 @@
     <Content Include="images\slider\consultancy.jpg" />
     <Content Include="images\slider\dev.jpg" />
     <Content Include="images\sms.jpg" />
+    <Content Include="images\social.png" />
     <Content Include="images\teamwork.jpg" />
     <Content Include="images\ticketmanagemant.jpg" />
     <Content Include="index.aspx" />
@@ -108,6 +124,13 @@
     <Content Include="js\sorting.js" />
     <Content Include="js\wow.min.js" />
     <Content Include="logo.png" />
+    <Content Include="Pages\AboutUs.aspx" />
+    <Content Include="Pages\BulkSMSs.aspx" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="Pages\DigitalMarketing.aspx" />
+    <Content Include="Pages\ICTConsultancyServices.aspx" />
+    <Content Include="Pages\News.aspx" />
+    <Content Include="Pages\Services.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -119,6 +142,52 @@
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AboutUs.aspx.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\AboutUs.aspx.designer.cs">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BulkSMSs.aspx.cs">
+      <DependentUpon>BulkSMSs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\BulkSMSs.aspx.designer.cs">
+      <DependentUpon>BulkSMSs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\DigitalMarketing.aspx.cs">
+      <DependentUpon>DigitalMarketing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\DigitalMarketing.aspx.designer.cs">
+      <DependentUpon>DigitalMarketing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ICTConsultancyServices.aspx.cs">
+      <DependentUpon>ICTConsultancyServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

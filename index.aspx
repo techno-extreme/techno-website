@@ -103,7 +103,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h3>
-                            Trendy Now <small><a href="#">view all</a></small></h3>
+                            Trendy Now <small><a href="/Pages/ICTConsultancyServices.aspx">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -130,7 +130,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Hot Deals <small><a href="#">view all</a></small></h3>
+                            Hot Deals <small><a href="/Pages/BulkSMSs.aspx">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -157,7 +157,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Special for You <small><a href="#">view all</a></small></h3>
+                            Special for You <small><a href="/Pages/DigitalMarketing.aspx">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -202,7 +202,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-4">
                         <div class="icon-banner">
-                        	<a href="javascript:void(0);">
+                        	<a>
                                 <div class="icon">
                                 	<img alt="" src="images/cycle.jpg">
                                 </div>
@@ -214,7 +214,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="icon-banner">
-                        	<a href="javascript:void(0);">
+                        	<a>
                                 <div class="icon">
                                 	<img alt="" src="images/integrations.png">
                                 </div>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <div class="icon-banner">
-                        	<a href="javascript:void(0);">
+                        	<a>
                                 <div class="icon">
                                 	<img alt="" src="images/Networking.jpg">
                                 </div>
@@ -276,10 +276,10 @@
                                   <i class="pe-5x pe-va pe-7s-diamond"></i> 
                                 </div> 
                            	  <h2>Our FEATURED</h2>
-                                <div>SERVICES</div>
+                                <div>PRODUCTS</div>
                               <div class="separator left"></div>
                             </header>
-                            <p>Take a look at some of our favourite life changing services.</p>
+                            <p>Take a look at some of our favourite life changing products.</p>
 							<p>We hope and believe that you will have a good experience with us:</p>
                         	<div class="customNavigation">
                             	<a class="btn-prev"><i class="fa fa-angle-left"></i></a>
@@ -507,8 +507,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="copyright">
+                <div class="copyright col-md-6">
                     &copy; Copyright 2018. Techno Extreme All Rights Reserved.
+                </div>
+                <div class="copyright col-md-6">                    
+                    <ul>
+                        <li><a class="face1" href="https://www.facebook.com/afrosoftzimbabwe/"></a></li>
+                        <li><a class="face4" href="https://twitter.com/afrosofth?lang=en"></a></li>
+                    </ul>
                 </div>
             </div>
             <!-- //footer_bottom -->
