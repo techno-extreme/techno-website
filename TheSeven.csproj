@@ -41,6 +41,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Intelligencia.UrlRewriter, Version=2.0.0.9, Culture=neutral, PublicKeyToken=0573f3650687980d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Intelligencia.UrlRewriter.2.0.0.9\lib\net40\Intelligencia.UrlRewriter.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -63,6 +66,22 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\awesome-font.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="fonts\fa-brands-400.eot" />
+    <Content Include="fonts\fa-brands-400.ttf" />
+    <Content Include="fonts\fa-brands-400.woff" />
+    <Content Include="fonts\fa-brands-400.woff2" />
+    <Content Include="fonts\fa-regular-400.eot" />
+    <Content Include="fonts\fa-regular-400.ttf" />
+    <Content Include="fonts\fa-regular-400.woff" />
+    <Content Include="fonts\fa-regular-400.woff2" />
+    <Content Include="fonts\fa-solid-900.eot" />
+    <Content Include="fonts\fa-solid-900.ttf" />
+    <Content Include="fonts\fa-solid-900.woff" />
+    <Content Include="fonts\fa-solid-900.woff2" />
+    <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,6 +100,9 @@
     <Content Include="css\robotoFont.css" />
     <Content Include="css\style.css" />
     <Content Include="EmailerService.svc" />
+    <Content Include="fonts\fa-brands-400.svg" />
+    <Content Include="fonts\fa-regular-400.svg" />
+    <Content Include="fonts\fa-solid-900.svg" />
     <Content Include="images\BulkSMSs\bulky.jpg" />
     <Content Include="images\BulkSMSs\goldclass.png" />
     <Content Include="images\BulkSMSs\platinum.jpg" />
@@ -110,13 +132,16 @@
     <Content Include="images\slider\dev.jpg" />
     <Content Include="images\sms.jpg" />
     <Content Include="images\social.png" />
+    <Content Include="images\SocialMediaAccounts\facebook.png" />
+    <Content Include="images\SocialMediaAccounts\linkedin.jpg" />
+    <Content Include="images\SocialMediaAccounts\social.png" />
+    <Content Include="images\SocialMediaAccounts\twitter.png" />
+    <Content Include="images\SocialMediaAccounts\youtube.jpg" />
     <Content Include="images\teamwork.jpg" />
     <Content Include="images\ticketmanagemant.jpg" />
     <Content Include="index.aspx" />
     <Content Include="index.html" />
     <Content Include="js\current.js" />
-    <Content Include="js\homePopup.js" />
-    <Content Include="js\homePopupLoad.js" />
     <Content Include="js\index.js" />
     <Content Include="js\jquery.isotope.min.js" />
     <Content Include="js\jquery.min.js" />
@@ -126,12 +151,17 @@
     <Content Include="logo.png" />
     <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\BulkSMSs.aspx" />
+    <Content Include="Pages\BulkSMSs.html" />
     <Content Include="Pages\Contact.aspx" />
     <Content Include="Pages\DigitalMarketing.aspx" />
+    <Content Include="Pages\DigitalMarketing.html" />
     <Content Include="Pages\ICTConsultancyServices.aspx" />
+    <Content Include="Pages\ICTConsultancyServices.html" />
     <Content Include="Pages\News.aspx" />
     <Content Include="Pages\Services.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\IdentityMessage.cs" />

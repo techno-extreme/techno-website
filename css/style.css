@@ -1,14 +1,18 @@
 .footer ul li a.face4 {
-    background: url(../images/social.png) no-repeat 0px 0px;
+    background: url(/images/SocialMediaAccounts/facebook.png) no-repeat -39px 0px;
+    
 }
 .footer ul li a.face1 {
-    background: url(../images/social.png) no-repeat -39px 0px;
-}                            
-.footer ul li a.face2 {      
-    background: url(../images/social.png) no-repeat -79px 0px;
+    background: url(/images/SocialMediaAccounts/twitter.png) no-repeat -39px 0px;
+    
+}
+.footer ul li a.face2 {
+    background: url(/images/SocialMediaAccounts/linkedin.jpg) no-repeat -39px 0px;
+    
 }
 .footer ul li a.face3 {
-    background: url(../images/social.png) no-repeat -121px 0px;
+    background: url(/images/SocialMediaAccounts/youtube.jpg) no-repeat -39px 0px;
+    
 }
 img {
 	border:none 0;
@@ -38,9 +42,9 @@ ul {
 	margin:0;
 }
 li {
-	padding:0;
-	margin:0;
-	list-style:none;
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
 }
 .fleft {float:left;
 }
@@ -134,7 +138,6 @@ img {max-width:100%;
 	position:absolute;
 	left:50%; /* centers the loading animation horizontally one the screen */
 	top:50%; /* centers the loading animation vertically one the screen */
-	background-image:url(../images/status.gif); /* path to your loading animation */
 	background-repeat:no-repeat;
 	background-position:center center;
 	margin:-35px 0 0 -35px; /* is width and height divided by two */
@@ -189,7 +192,6 @@ img {max-width:100%;
 	margin-bottom:20px;
 }
 #logo a {
-	background:url(../images/logo.png) no-repeat 0 6px;
 	padding:0 0 0 63px;
 	color:#0066CC;
 	font-weight:600;

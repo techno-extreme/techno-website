@@ -41,10 +41,10 @@
                     <!-- menu -->
                     <nav class="navmenu">
                         <ul>
-                            <li class="scrollable"><a href="#topping">Home</a></li>  
-                            <li class="scrollable"><a href="#about">About us</a></li>
-                            <li class="scrollable"><a href="#services">Services</a></li>
-                            <li class="scrollable"><a href="#news">News</a></li>
+                            <li class="scrollable"><a href="/index.html">Home</a></li>  
+                            <li class="scrollable"><a href="/index.html#about">About us</a></li>
+                            <li class="scrollable"><a href="/index.html#services">Services</a></li>
+                            <li class="scrollable"><a href="/index.html#news">News</a></li>
                             <li class="scrollable"><a href="#contact">Contact</a></li>
                         </ul>
                     </nav><!-- end menu --> 
@@ -287,8 +287,6 @@
     <!-- javascript files-->
     <script type="text/javascript" src="/js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="/js/sorting.js"></script>
-    <script src="/js/homePopupLoad.js" type="text/javascript"></script>
-    <script src="/js/homePopup.js" type="text/javascript"></script>
     <script type="text/javascript" src="/js/plugins.js"></script>
     <script type="text/javascript" src="/js/current.js"></script>
     <script type="text/javascript" src="/js/wow.min.js"></script>

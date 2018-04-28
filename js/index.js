@@ -1,23 +1,22 @@
-﻿$("#submitFeedback").on("click", function () {
+﻿$("#submitFeedback").on("click", function (e) {
+    e.preventDefault();
     $.ajax({
         type: "POST",
-        url: getBaseURL() + "EmailerService.svc/json/SendEmail",
+        dataType: "json",
+        contentType: "application/json; charset=utf-8",
+        url: "EmailServiceProcessor/EmailService.svc",
         data: {
-            Name: $("#contactName").val,
-            SenderEmail: $("#contactEmail").val,
-            Phone: $("#contactPhone").val,
-            Subject: $("#contactSubject").val,
-            Body: $("#contactMessage").val
+            Name: "",
+            SenderEmail: "",
+            Phone: "",
+            Subject: "",
+            Body: ""
         },
         success: function (response) {
-            if ($("#contactMessage")) {
-
-            }
+            alert("Message successfully submitted. We really appreciate your contributions.");
         },
         error: function (error) {
-            if ($("#contactMessage")) {
-
-            }
+            alert(error.text);
         }
     });
 });
@@ -25,7 +24,7 @@
 function getBaseURL() {
     var url = location.href;  // entire url including querystring - also: window.location.href;
     var baseUrl = url.substring(0, url.indexOf('/', 14));
-    if (baseUrl.indexOf('http://localhost') != -1) {
+    if (baseUrl.indexOf('http://localhost') !== -1) {
         var protocol = location.protocol;
         var host = location.host;
         var baseLocalUrl = protocol + "//" + host;

@@ -16,6 +16,7 @@
     <link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/robotoFont.css" rel="stylesheet" />
+    <link href="Content/awesome-font.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
 </head>
 <body>
@@ -55,7 +56,6 @@
         <!-- //end header section -->
         <!-- home content -->
         <section id="home">
-            	
         	<!--Slider-->
             <div class="full_slider">
                 <div id="fullwidth_slider" class="flexslider">                	
@@ -429,7 +429,15 @@
                                     </div>
                                     <div class="col-md-12">
                                         <input class="shortcode_button" id="submitFeedback" type="submit" value="Send message"></div>
-                                </div> 
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="separator"></div>
+                                <div class="social-icon col-md-6">
+                                    <a class="icon-spacing" href="https://www.facebook.com/tonderai.muchada"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="icon-spacing" href="https://twitter.com/tonderaimuchada"><i class="fab fa-twitter"></i></a>
+                                    <a class="icon-spacing" href="https://www.instagram.com/tonderaimuchada/"><i class="fab fa-instagram"></i></a>
+                                    <a class="icon-spacing" href="https://www.linkedin.com/in/tonderai-muchada-559286156/"><i class="fab fa-linkedin"></i></a>
+                                </div>
                             </div> 
                         </div>                
                     </div>
@@ -510,24 +518,24 @@
                 <div class="copyright col-md-6">
                     &copy; Copyright 2018. Techno Extreme All Rights Reserved.
                 </div>
-                <div class="copyright col-md-6">                    
-                    <ul>
-                        <li><a class="face1" href="https://www.facebook.com/afrosoftzimbabwe/"></a></li>
-                        <li><a class="face4" href="https://twitter.com/afrosofth?lang=en"></a></li>
-                    </ul>
+                <div class="copyright social-icon col-md-6">
+                    <a class="icon-spacing"></a>
+                    <a class="icon-spacing"></a>
+                    <a class="icon-spacing"></a>
+                    <a class="icon-spacing" href="https://www.facebook.com/tonderai.muchada"><i class="fab fa-facebook-f"></i></a>
+                    <a class="icon-spacing" href="https://twitter.com/tonderaimuchada"><i class="fab fa-twitter"></i></a>
+                    <a class="icon-spacing" href="https://www.instagram.com/tonderaimuchada/"><i class="fab fa-instagram"></i></a>
+                    <a class="icon-spacing" href="https://www.linkedin.com/in/tonderai-muchada-559286156/"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
             <!-- //footer_bottom -->
         </div>
         <!--//footer-->
-    </div>
     <!-- end #page -->
     <header class="fixed-menu"></header>
     <!-- javascript files-->
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/sorting.js"></script>
-    <script src="js/homePopupLoad.js" type="text/javascript"></script>
-    <script src="js/homePopup.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
@@ -536,6 +544,7 @@
     <script>
         new WOW().init();
     </script>
+    </div>
     </form>
 </body>
 </html>

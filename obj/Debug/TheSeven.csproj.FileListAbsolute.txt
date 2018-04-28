@@ -1,7 +1,9 @@
 c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.dll.config
 c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.dll
 c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\bin\TheSeven.pdb
-c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csprojResolveAssemblyReference.cache
 c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.dll
 c:\users\tonderaim\documents\visual studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.pdb
 C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csproj.CoreCompileInputs.cache
+C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\bin\Intelligencia.UrlRewriter.dll
+C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csproj.CopyComplete
+C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csprojResolveAssemblyReference.cache
