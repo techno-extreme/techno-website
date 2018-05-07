@@ -7,3 +7,11 @@ C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\D
 C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\bin\Intelligencia.UrlRewriter.dll
 C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csproj.CopyComplete
 C:\Users\Tonderaim\Documents\Visual Studio 2013\Projects\TheSeven\TheSeven\obj\Debug\TheSeven.csprojResolveAssemblyReference.cache
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\bin\TheSeven.dll.config
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\bin\TheSeven.dll
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\bin\TheSeven.pdb
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\obj\Debug\TheSeven.csprojResolveAssemblyReference.cache
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\obj\Debug\TheSeven.csproj.CoreCompileInputs.cache
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\obj\Debug\TheSeven.csproj.CopyComplete
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\obj\Debug\TheSeven.dll
+C:\Users\Tonderaim\Documents\GitHub\tonderaimuchada.github.io\obj\Debug\TheSeven.pdb

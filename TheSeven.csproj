@@ -148,7 +148,6 @@
     <Content Include="js\plugins.js" />
     <Content Include="js\sorting.js" />
     <Content Include="js\wow.min.js" />
-    <Content Include="logo.png" />
     <Content Include="Pages\AboutUs.aspx" />
     <Content Include="Pages\BulkSMSs.aspx" />
     <Content Include="Pages\BulkSMSs.html" />

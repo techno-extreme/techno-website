@@ -1,20 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mail;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Services;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 
 using TheSeven.Classes;
 
-public partial class preview_dotnet_templates_newlook_index : System.Web.UI.Page
+public partial class index : System.Web.UI.Page
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+        if (true)
+        {
+            if (true)
+            {
 
+            }
+        }
+    }
+
+    public void Test(object sender, EventArgs e)
+    {
+        try
+        {
+            if (true)
+            {
+                if (true)
+                {
+
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            return;
+        }
     }
 
     [WebMethod]

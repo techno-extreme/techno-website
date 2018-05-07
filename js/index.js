@@ -1,25 +1,25 @@
-﻿$("#submitFeedback").on("click", function (e) {
-    e.preventDefault();
-    $.ajax({
-        type: "POST",
-        dataType: "json",
-        contentType: "application/json; charset=utf-8",
-        url: "EmailServiceProcessor/EmailService.svc",
-        data: {
-            Name: "",
-            SenderEmail: "",
-            Phone: "",
-            Subject: "",
-            Body: ""
-        },
-        success: function (response) {
-            alert("Message successfully submitted. We really appreciate your contributions.");
-        },
-        error: function (error) {
-            alert(error.text);
-        }
-    });
-});
+﻿//$("#submitFeedback").on("click", function (e) {
+//    e.preventDefault();
+//    $.ajax({
+//        type: "POST",
+//        dataType: "json",
+//        contentType: "application/json; charset=utf-8",
+//        url: "EmailServiceProcessor/EmailService.svc",
+//        data: {
+//            Name: "",
+//            SenderEmail: "",
+//            Phone: "",
+//            Subject: "",
+//            Body: ""
+//        },
+//        success: function (response) {
+//            alert("Message successfully submitted. We really appreciate your contributions.");
+//        },
+//        error: function (error) {
+//            alert(error.text);
+//        }
+//    });
+//});
 
 function getBaseURL() {
     var url = location.href;  // entire url including querystring - also: window.location.href;

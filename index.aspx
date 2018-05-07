@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="preview_dotnet_templates_newlook_index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="index" Async="true"%>
 
 <!DOCTYPE html>
 <html>
@@ -18,6 +18,7 @@
     <link href="css/robotoFont.css" rel="stylesheet" />
     <link href="Content/awesome-font.css" rel="stylesheet" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <link rel="icon" href="/logo.png"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -103,7 +104,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h3>
-                            Trendy Now <small><a href="/Pages/ICTConsultancyServices.html">view all</a></small></h3>
+                            Trendy Now <small><a href="/Pages/ICTConsultancyServices">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -130,7 +131,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Hot Deals <small><a href="/Pages/BulkSMSs.html">view all</a></small></h3>
+                            Hot Deals <small><a href="/Pages/BulkSMSs">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -157,7 +158,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Special for You <small><a href="/Pages/DigitalMarketing.html">view all</a></small></h3>
+                            Special for You <small><a href="/Pages/DigitalMarketing">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -232,7 +233,7 @@
                                 </div>
                                 <h3>Network Adminstration</h3>
                                 <div class="separator"></div>
-                            	<p>Network administration involves a wide array of operational tasks that help a network to run smoothly and efficiently.</p>
+                            	<p>Network administration involves a wide array of services that help your IT networks to run reliably, smoothly and efficiently.</p>
                             </a>
                         </div>
                     </div>
@@ -409,7 +410,7 @@
                                 </div>   
                             </div> 
                             <div id="fields"> 
-                                <div id="ajax-contact-form" class="row">
+                                <div class="row">
                                     <div class="col-md-6 col-sm-6">
                                         <input class="inp" type="text" id="contactName" name="name" placeholder="Name" title="Name">
                                     </div>
@@ -428,7 +429,8 @@
                                         <textarea class="inp" rows="4" id="contactMessage" name="message" placeholder="Message" title="Message"></textarea>
                                     </div>
                                     <div class="col-md-12">
-                                        <input class="shortcode_button" id="submitFeedback" type="submit" value="Send message"></div>
+                                        <input class="shortcode_button" id="submitFeedback" type="submit" runat="server" oninput="Test" value="Send message"/>
+                                    </div>
                                     <div class="clear"></div>
                                 </div>
                                 <div class="separator"></div>
@@ -451,7 +453,7 @@
                                 <div>DETAILS</div>
                               <div class="separator left"></div>
                             </header>
-                            <p>Address: 86, Smith Drive, Avondale</p>
+                            <p>Address: 11 Sanlam Centre, Newlands</p>
                             <p>Harare </p>
                             <p>Zimbabwe</p>
                             <p>Phone: +263 772 721 627</p>
@@ -464,9 +466,7 @@
         <!-- //end contact content-->
         <!-- map section-->
         <div class="map-canvas">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1899.1163024456139!2d31.052920627324596!3d-17.827727640220804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbeverly+court+harare!5e0!3m2!1sen!2szw!4v1522259068930" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
-                
-            </iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.6375174516143!2d31.073801555446988!3d-17.808725088128497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc12bd3605956f393!2sNewlands+Shopping+Centre!5e0!3m2!1sen!2szw!4v1525714937089" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <!-- /end map section -->
         <!--footer-->
@@ -539,7 +539,6 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/current.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
-    <script src="js/index.js"></script>
     <!-- animation on scrolling-->
     <script>
         new WOW().init();
