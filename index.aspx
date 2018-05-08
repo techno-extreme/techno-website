@@ -104,7 +104,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <h3>
-                            Trendy Now <small><a href="/Pages/ICTConsultancyServices">view all</a></small></h3>
+                            Trendy Now <small><a href="/ICTConsultancyServices">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -131,7 +131,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Hot Deals <small><a href="/Pages/BulkSMSs">view all</a></small></h3>
+                            Hot Deals <small><a href="/bulkSMSs">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
@@ -158,7 +158,7 @@
                     </div>
                     <div class="col-md-4">
                         <h3>
-                            Special for You <small><a href="/Pages/DigitalMarketing">view all</a></small></h3>
+                            Special for You <small><a href="/digitalMarketing">view all</a></small></h3>
                         <ul class="booking-list">
                             <li>
                                 <div class="booking-item booking-item-small">
