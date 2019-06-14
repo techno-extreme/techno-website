@@ -1,3 +1,20 @@
+.view-all{
+  padding: 5px 10px;
+  font-size: 9px;
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff !important;
+  vertical-align: top;
+  text-align: center;
+  text-transform: uppercase;
+  background: #0066CC;
+  border: none;
+  cursor: pointer;
+}
+
 #myBtn {
   display: none;
   position: fixed;
