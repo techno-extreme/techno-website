@@ -11,6 +11,7 @@
     <link href="css/plugins.css" rel="stylesheet" type="text/css">
     <link href="css/homePopup.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/preloader.scss" rel="stylesheet" type="text/scss">
     <link href="css/responsive.css" rel="stylesheet" type="text/css">
     <link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css">
     <link href="css/animate.css" rel="stylesheet" type="text/css">
@@ -21,13 +22,10 @@
 </head>
 
 <body>
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
     <form id="form1" runat="server">
-        <!-- Preloader -->
-        <div id="preloader">
-            <div id="status">
-            </div>
-        </div>
-        <!--//Preloader -->
         <!-- #page -->
         <div id="page">
             <!-- header section -->
@@ -316,7 +314,8 @@
                                     <!-- <div>History</div> -->
                                     <div class="separator left"></div>
                                 </header>
-                                <p>Success is only for the brave. And always remember that the distance between you and your
+                                <p>Success is only for the brave. And always remember that the distance between you and
+                                    your
                                     dreams is action. Our team comprises of young and energetic technocrats who only
                                     value nothing except discpline, dedication, consistency and teamwork towards
                                     quality work.</p>
@@ -623,8 +622,8 @@
                                     updated.
                                 </p>
                                 <div class="ns_block">
-                                    <input type="email" required id="newsletterEmail" class="ns_input" placeholder="Email address"
-                                        title="Email address">
+                                    <input type="email" required id="newsletterEmail" class="ns_input"
+                                        placeholder="Email address" title="Email address">
                                     <input type="submit" id="signUp" class="shortcode_button" value="Sign Up">
                                 </div>
                                 <div class="social">
